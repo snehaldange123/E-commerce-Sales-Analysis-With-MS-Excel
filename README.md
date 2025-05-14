@@ -1,60 +1,95 @@
-Superstore Sales Analysis Dashboards
+E-Commerce Sales Analysis Dashboard (MS Excel)
 
-This project presents a comprehensive analysis of sales data from a fictional superstore, utilizing Microsoft Power BI to uncover insights into sales performance, profitability, and customer behavior.
-The dashboard offers interactive visualizations to facilitate data-driven decision-making.
 
-Project Features:
+📊 Project Overview
 
-> Sales by Category & Sub-Category: Visualize total sales and profit across various product categories and sub-categories.
+This project involves analyzing e-commerce sales data to extract actionable insights and presenting them through an interactive Excel dashboard. The analysis focuses on sales trends, profitability, customer segmentation, and product performance across various regions and timeframes.
 
-> Regional Analysis: Assess sales performance across different regions, identifying high-performing areas.
+📁 Dataset Description:
 
-> Customer Segmentation: Analyze sales data segmented by customer demographics.
+The dataset includes the following fields:
 
-> Shipping & Payment Modes: Evaluate sales distribution based on shipping methods and payment modes.
+Order Date: Date when the order was placed
 
-> Time Series Analysis: Examine monthly and yearly sales trends to identify patterns and anomalies.
+Ship Date: Date when the order was shipped
 
-> 15-Day Sales Forecasting: Utilize Power BI's forecasting tools to predict future sales trends.
+Ship Mode: Shipping method (e.g., Same Day, First Class)
 
-Tools & Technologies:
+Customer ID: Unique identifier for each customer
 
-- Power BI Desktop: For data visualization and dashboard creation.
+Segment: Customer segment (Consumer, Corporate, Home Office)
 
-- Power Query: For data transformation and cleaning.
+Country/Region/State/City: Geographical information
 
-- DAX (Data Analysis Expressions): For creating calculated columns and measures.
+Product ID: Unique identifier for each product
 
-- Data Source: Superstore sales dataset (2019-2020).
+Category/Sub-Category: Product classification
 
-Project Files: 
+Product Name: Name of the product
 
-Superstore_Sales_Analysis.pbix: Power BI project file containing the dashboard.
+Sales: Revenue generated from the sale
 
-Superstore_Sales_Data.xlsx: Dataset used for analysis.
+Quantity: Number of units sold
 
-Forecasting_Analysis.png: Screenshot of the 15-day sales forecasting visualization.
+Discount: Discount applied to the sale
 
-Methods:
+Profit: Profit earned from the sale
 
-Clone the Repository: Download the project files to your local machine.
+🎯 Objectives :
 
-Open in Power BI Desktop: Launch Power BI Desktop and open the Superstore_Sales_Analysis.pbix file.
+Analyze total sales and profit over a 12-month period across different regions and segments.
 
-Explore the Dashboard: Navigate through the interactive visualizations to explore sales trends, regional performance, and forecasting insights.
+Identify top-performing product categories and sub-categories.
 
-Insights & Conclusion :
+Determine the most profitable customer segments and regions.
 
-Top-Performing Categories: Identify which product categories contribute most to sales and profit.
+Evaluate year-over-year (YoY) growth for key performance indicators (KPIs).
 
-Regional Opportunities: Pinpoint regions with high sales potential for targeted marketing efforts.
+Develop an interactive dashboard to visualize insights effectively.
 
-Customer Preferences: Understand customer demographics to tailor product offerings.
+📌 Key Features :
 
-Shipping & Payment Insights: Optimize logistics and payment methods based on sales data.
+Dynamic Dashboard: Interactive Excel dashboard with slicers for Ship Mode and Region.
 
-Sales Trends: Leverage time series analysis to plan for seasonal variations.
+KPIs: Display of total sales, total profit, average discount, and total quantity sold.
 
-Forecasting: Use the 15-day sales forecast to anticipate demand and adjust inventory accordingly.
+Visualizations:
 
+Combo charts for monthly sales and profit trends.
+
+Pie and column charts for category-wise sales and profit.
+
+Map chart illustrating sales distribution by state.
+
+Identification of top 5 customers and best-selling products.
+
+Data Analysis Tools:
+
+Pivot Tables for summarizing data.
+
+Calculated fields for custom metrics.
+
+Conditional formatting to highlight key data points.
+
+Sparklines for trend analysis.
+
+🧠 Learnings:
+
+Proficiency in Excel functions and features such as Pivot Tables, slicers, and conditional formatting.
+
+Ability to transform raw data into meaningful insights.
+
+Skills in creating interactive and user-friendly dashboards.
+
+Understanding of sales metrics and their implications on business strategy.
+
+📂 How to Use :
+
+Download the Ecommerce_Sales_Analysis.xlsx file.
+
+Open the file in Microsoft Excel.
+
+Navigate to the 'Dashboard' sheet to interact with the dashboard.
+
+Use the slicers to filter data by Ship Mode and Region as needed.
 
